@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+	<div class="container">
+
+		<div class="addTask">
+			<input type="text" id="input" placeholder="Add a Task">
+			<button type="button" id="addTask">Add Task</button>
+			<button id='clear'>Clear</button>
+		</div>
+
+		<ul id="notCompleted">
+			<h3>To-DO Task</h3>
+			<h5 id="empty">No Tasks To Do</h5>
+			<li id="todoList"></li>
+		</ul>
+
+		<ul id="Completed">
+			<h3>Task Done</h3>
+			<h5 id="doneEmpty">No Tasks To Do</h5>
+			<li id="doneList"></li>
+		</ul>
+
+	</div>
+
+	<script type="module" src="ToDoList.js"></script>
+	<script type="module" src="ToDo.js"></script>
+	<script type="module" src="main.js"></script>
+</body>
+</html>
